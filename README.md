@@ -2,8 +2,7 @@ This repository contains all the solutions to the ALX 0x1D. C - Binary trees tas
 
 
 ### AUTHORS ###
-Nurudeen Ahmed<https://x.com/0xNuru>
-Bukky Pase <https://github.com/pasebukky>
+[Nurudeen Ahmed](https://x.com/0xNuru)
 
 
 
