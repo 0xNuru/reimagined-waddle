@@ -1,6 +1,3 @@
-This repository contains all the solutions to the ALX 0x1D. C - Binary trees task. 
-
-
 ### AUTHORS ###
 [Nurudeen Ahmed](https://x.com/0xNuru)
 
