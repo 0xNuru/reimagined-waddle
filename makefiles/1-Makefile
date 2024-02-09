@@ -1,0 +1,26 @@
+CC = gcc
+SRC = main_files/1-main.c 1-binary_tree_insert_left.c 0-binary_tree_node.c binary_tree_print.c
+OBJ = $(SRC:.c=.o)
+NAME = 1-left
+CFLAGS = -Wall -Werror -Wextra -pedantic
+INCLUDES = -I.
+
+.PHONY: all clean oclean fclean re
+
+
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
+	$(RM) $(OBJ)
+
+%.o: %.c
+	$(CC) $(CFLAGS) $(INCLUDES) -c $< -o $@
+
+clean:
+	$(RM) *~ $(OBJ) $(NAME)
+
+oclean:
+	$(RM) $(OBJ)
+
+fclean: clean oclean
+
+re: fclean all
